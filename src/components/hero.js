@@ -11,6 +11,7 @@ function HeroSection() {
         <Image src={hero} className="img" fluid />
         <span id="overlay"></span>
         <div id="head-text">
+          <p className='quote-sd' >Change is the result of all true learning</p>
           <p className="quote-hd">Like what you are learning </p>
           <br />
           <p className="quote-hd">Get started today </p>
