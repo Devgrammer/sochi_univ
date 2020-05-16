@@ -1,0 +1,54 @@
+.table {
+  /* border: 2px #136a8a solid; */
+  border-radius: 50px;
+  font-family: Roboto, sans-serif;
+
+}
+
+.tb1-blck, .tb2-blck, .tb3-blck, .tb4-blck{
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    
+}
+
+th {
+  color: aliceblue;
+  background-image: linear-gradient(70deg, #136a8a, #267871);
+  align-content: center;
+}
+:link:hover {
+  color: aliceblue;
+}
+td:hover, :any-link:hover {
+  background-image: linear-gradient(70deg, #136a8a, #267871);
+  color: aliceblue;
+  cursor: pointer;
+}
+
+:any-link{
+  font-size: 1em;
+  color: grey;
+
+}
+
+.tb-hd {
+  border-radius: 10px 10px 0px 0px;
+}
+
+@media screen and (max-width:768px){
+    .tb1-blck,  .tb2-blck, .tb3-blck, .tb4-blck{
+        position:relative;
+        left: 23vw;
+        top: 5vh;
+    }
+
+    .tb2-blck{
+      top:15vh;
+    }
+
+    .tb3-blck{
+      top:25vh;
+    }
+    .tb4-blck{
+      top:35vh;
+    }
+}

@@ -1,10 +1,10 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import "./nav.css";
 
 function NavBar() {
   return (
-    <>
+    <Fragment>
       <Navbar
         collapseOnSelect
         expand="lg"
@@ -50,7 +50,7 @@ function NavBar() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </>
+    </Fragment>
   );
 }
 

@@ -1,13 +1,12 @@
-import React from "react";
- import { Image, Button } from "react-bootstrap";
- import hero from "./img/hero1.jpg";
+import React, { Fragment } from "react";
+import {Image,Button } from "react-bootstrap";
+import hero from "../img/hero1.jpg";
 import "./hero.css";
 
 function HeroSection() {
   return (
-    <>
+    <Fragment>
       <div className="hero-block">
-        <h1>hello</h1>
         <Image src={hero} className="img" fluid />
         <span id="overlay"></span>
         <div id="head-text">
@@ -17,12 +16,12 @@ function HeroSection() {
           <p className="quote-hd">Get started today </p>
           <div>
             <Button variant="primary" size="sm" className="head-btn ">
-              Get Started >
+              GET STARTED NOW
             </Button>
           </div>
         </div>
       </div>
-    </>
+    </Fragment>
   );
 }
 
