@@ -1,0 +1,125 @@
+.card-blck{
+    display: block;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    border-radius: 2px;
+
+}
+Button.crd-btn, Button.list-btn {
+  position: relative;
+   width: auto;
+  border: none;
+  background-image: linear-gradient(70deg, #136a8a, #267871);
+}
+
+#list-cont{
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    filter: opacity(60%);
+    position: static;
+    margin-top: -3vh;
+    word-wrap: break-word;
+    font-style: justify;
+
+}
+#crd-list{
+    padding: 1vw;
+}
+#shr{
+    padding: none;
+}
+
+
+@media screen and (max-width:768px){
+    .card-blck{
+        position: static;
+        width: 75vw;
+        margin-left: 10vw;
+        margin-top: 10vh;
+        
+       
+    }
+    .crd-img{
+        position: relative;
+    
+    }
+
+    #crd-txt{
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    padding: 10px;
+    color-adjust:#000000;
+    filter: opacity(60%);
+
+    }
+
+     button.crd-btn, button.list-btn {
+   
+    height: 4.5vw;
+    font-size: 1.7vw;
+    font-weight: 600;
+    bottom: 4vh;
+    left: 2vw;
+   
+  }
+
+  button.list-btn{
+      margin-left: 25vw;
+     
+  }
+}
+
+@media screen and (min-width:769px){
+    .card-blck{
+        position: static;
+        width: 75vw;
+        margin-right: 3.8vw;     
+        border-top:  #267871 8px solid;  
+        margin-bottom: 10vh;
+        
+       
+    }
+    .crd-img{
+        position: relative;
+    
+    }
+    #list-cont{
+ 
+    font-size: 01em;
+    color: #000000;
+    filter: opacity(60%);
+    position: static;
+    margin-top: -2.5vh;
+    word-wrap: break-word;
+    font-style: justify;
+
+}
+
+    #crd-txt{
+    font-family: Roboto, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    text-align: justify;
+    padding: 10px;
+    color-adjust:#000000;
+    filter: opacity(60%);
+
+    }
+
+     button.crd-btn, button.list-btn {
+   
+    height: auto;
+
+    font-weight: 600;
+    bottom: 2vh;
+    left: 1vw;
+   
+  }
+
+  button.list-btn{
+      margin-left: 25vw;
+     
+  }
+}

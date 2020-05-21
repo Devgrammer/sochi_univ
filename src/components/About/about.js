@@ -1,6 +1,6 @@
 import React from 'react'
 import faculty from '../img/faculty.jpg'
-import {Image} from 'react-bootstrap'
+import {Image, Button} from 'react-bootstrap'
 import './about.css';
 import { Shead } from "../Heading/head";
 
@@ -25,7 +25,10 @@ function FacultyCont() {
   return (
     <>
       <div className="abtc-blck">
-        <Shead shead={"ABOUT FACULTY"} />
+        <div id="shd-cont">
+          <Shead shead={"ABOUT FACULTY"} />
+        </div>
+
         <div id="text-content">
           <p id="content">
             The social and pedagogical faculty is one of the largest faculties
@@ -37,8 +40,11 @@ function FacultyCont() {
             SPF are winners and prize-winners of national and international
             competitions in various subjects (for example, in mathematics
             (Ariel, Israel), in computer science (Yoshkar-Ola), in speech
-            therapy (Sochi, Moscow), etc.) .
+            therapy (Sochi, Moscow), etc.).
           </p>
+          <Button variant="primary" size="sm" className="abt-btn ">
+           Read More
+          </Button>
         </div>
       </div>
     </>

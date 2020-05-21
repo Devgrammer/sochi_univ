@@ -26,4 +26,16 @@ function Shead(props) {
 }
 
 
-export {Head, Shead};
+function XShead(props) {
+  return (
+    <>
+      <div className="xshd-blck">
+        <p id="xsheading">{props.xshead}</p>
+      </div>
+    </>
+  );
+}
+
+
+
+export {Head, Shead, XShead };

@@ -6,7 +6,7 @@ function ProgTab1() {
   return (
     <Fragment>
       <div className="tb1-blck">
-        <Table className="table" responsive>
+        <Table className="table"responsive="md">
           <thead>
             <tr>
               <th className="tb-hd">UNDERGRDUATE DIRECTION</th>
@@ -112,7 +112,7 @@ function ProgTab3() {
   return (
     <Fragment>
       <div className="tb3-blck">
-        <Table className="table" responsive>
+        <Table className="table" responsive="sm">
           <thead>
             <tr>
               <th className="tb-hd">SPECIALTY DIRECTIONS</th>

@@ -1,6 +1,7 @@
 #heading,#sheading{
     font-family: OpenSans, sans-serif;
-    color:black;
+    color:#000000;
+    filter: opacity(87%);
 }
 
 
@@ -16,10 +17,17 @@
  #sheading{
     font-size: 3.5vw;
     font-weight: 700;
-    margin-left: 2.5vw;
-    
+    margin-left: 2.5vw;    
 
 }
+
+#xsheading{
+    font-size: 3vw;
+    font-weight: 700;
+    color: #000000;
+    filter: opacity(87%);
+}
+
 #hbar{
     display: block;
     position: relative;
@@ -37,6 +45,53 @@
     height: 3vh;
     background-image: linear-gradient(70deg, #136a8a, #267871);
     bottom:-4.2vw;
+    
+}
+
+
+
+}
+
+@media  screen and (min-width:769px){
+
+    #heading{
+    font-size: 2.5vw;
+    font-weight: 700;
+    
+
+}
+
+ #sheading{
+    font-size: 2vw;
+    font-weight: 700;
+    margin-left: 1.2vw;    
+
+}
+
+#xsheading{
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: #000000;
+    filter: opacity(87%);
+}
+
+#hbar{
+    display: block;
+    position: relative;
+    width: 0.7vw;
+    height: 4.5vh;
+    background-image: linear-gradient(70deg, #136a8a, #267871);
+    bottom:-3vw;
+    right: 1.5vw;
+}
+
+#shbar{
+    display: block;
+    position: relative;
+    width: 0.5vw;
+    height: 4.3vh;
+    background-image: linear-gradient(70deg, #136a8a, #267871);
+    bottom:-2.2vw;
     
 }
 

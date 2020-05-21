@@ -1,23 +1,39 @@
 
 
-#lh1{
-    font-size: 0.6rem;
-     font-weight: 100;
-}
-#lh2{
-    
-    font-size: 0.8rem;
-    font-weight: 200;
-}
 
-.custom_nav{background-image: linear-gradient(70deg, #136a8a, #267871);
+.custom_nav{
+    background-image: linear-gradient(70deg, #136a8a, #267871);
 
 }
 
-.logo_block{
-    font-family: OpenSans, sans-serif;
-    line-height: 0.05rem ;
-   padding-left: 2.5rem;
-   margin-top: -1.5rem;
+#logo{
+    padding-left: -1vw;
+}
+
+#fac{
+    font-size:10px;
+    font-weight: 400;
+}
+
+#uni{
+    position: relative;
+    font-size:12px;
+    font-weight: 500;
+    bottom: 1.5vw;
+}
+
+.nmed-bdy{
+    margin-left:-0.5vw;
+}
+.navbar-brand {
+  padding: 0 15px;
+  height: 10px;
+  line-height: 80px;
+}
+
+.navbar-brand{
+    position: relative;
+    bottom: 0.6em;
+    left: -0.8em;
    
 }

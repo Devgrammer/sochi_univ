@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown, Media } from "react-bootstrap";
 import "./nav.css";
 
 function NavBar() {
@@ -12,16 +12,25 @@ function NavBar() {
         fixed="top"
         variant="dark"
       >
-        <Navbar.Brand href="#home">
-          <img src="./sutr_logo.png" width="30" height="30" alt="" />
-          <div className="logo_block">
-            <p id="lh1">SOCIO-PEDAGOGICAL FACULTY</p>
-            <br />
-            <p id="lh2">SOCHI STATE UNIVERSITY</p>
-          </div>
+        <Navbar.Brand href="#home" className="navbar-brand">
+          <Media className="nav-logo">
+            <img
+              width={24}
+              height={24}
+              className="mr-3"
+              src="./sutr_logo.png"
+              alt="Generic placeholder"
+            />
+            <Media.Body className="nmed-bdy">
+              <div className="logo-cont">
+                <p id="fac">SOCIO-PEDAGOGICAL FACULTY</p>
+                <p id="uni">SOCHI STATE UNIVERSITY</p>
+              </div>
+            </Media.Body>
+          </Media>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse id="responsive-navbar-nav" className="Navbar-button">
           <Nav className="mr-auto">
             <Nav.Link href="#features">Reputation</Nav.Link>
             <NavDropdown title="Activities" id="collasible-nav-dropdown">

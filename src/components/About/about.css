@@ -13,7 +13,15 @@
     margin-left: 10vw;
     margin-top: ;
   }
+  .abtc-blck
+  {
+    position: relative;
+    bottom: 2.5vh;
+  }
 
+  #shd-cont{
+   
+  }
   #bar {
     background-image: linear-gradient(70deg, #136a8a, #267871);
     width: 10vw;
@@ -23,10 +31,10 @@
     position: absolute;
     display: block;
     background-image: linear-gradient(70deg, #136a8a, #267871);
-    width: 30vw;
+    width: 20vw;
     height: 1.5vw;
-    top: 3.1rem;
-    left: 21vw;
+    top: -3.5rem;
+    left: 7.4vw;
   }
 
   #ver {
@@ -34,9 +42,23 @@
     display: block;
     background-image: linear-gradient(70deg, #136a8a, #267871);
     width: 1.5vw;
-    height: 30vw;
-    top: 3.1rem;
-    left: 20vw;
+    height: 20vw;
+    top: -3.5rem;
+    left: 7.4vw;
+  }
+
+  .abt-btn{
+    background-image: linear-gradient(70deg, #136a8a, #267871);
+    width: auto;
+    height: auto;
+  }
+
+  #content{
+    font-family:Roboto, sans-serif;
+    font-size: 1.2em;
+    filter: opacity(87%);
+    text-align: justify;
+    padding-right:3vw;
   }
 }
 

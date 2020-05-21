@@ -1,0 +1,66 @@
+div.footer-blck{
+    position: initial ;
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: #000000;
+    filter: opacity(87%);
+     color: #ffffff;
+    filter: opacity(87%);
+    margin: 0px;
+     margin-top: 10vh;
+     padding:0px;
+    
+}
+
+.logo-cont{
+    position:relative;
+    font-family: Roboto, sans-serif;
+    bottom: 0.2vh;
+}
+
+.logo-blck{
+ margin-left:2vw ;
+ padding: 4vw;
+}
+
+
+
+@media screen and (max-width:768px){
+
+.list-row{
+    position: relative;
+    bottom:10vh;
+}
+
+.med-bdy{
+margin-left: -2vw;
+}
+#li-cont{
+  font-size: 10px;
+  color: #ffffff;
+  filter: opacity(87%);
+
+
+}
+
+#ul-blck{
+    padding: 2vw;
+
+}
+
+#fac{
+    font-size:10px;
+    font-weight: 400;
+  
+
+}
+
+#uni{
+    position: relative;
+    font-size:12px;
+    font-weight: 500;
+    bottom: 20px;
+}
+
+}
