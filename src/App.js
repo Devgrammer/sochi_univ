@@ -33,46 +33,43 @@ function App() {
           </Col>
         </Row>
         <Row>
-          <Col>
-            <Row>
-              <div className="pro1-head">
-                <Head head={"PROGRAM"} />
-              </div>
-            </Row>
-          </Col>
-          <Col>
-            <Row className=" justify-content-center">
-              <div className="pro2-head">
-                <Head head={"UPDATES"} />
-              </div>
-            </Row>
-          </Col>
+          <Col></Col>
+          <Col></Col>
         </Row>
         <Row>
           <Col md={6}>
-            <Row>
-              p
+            <Row className=" justify-content-lg-center">
+              <div className="sub-head">
+                <Head head={"PROGRAM"} />
+              </div>
+            </Row>
+            <Row className=" justify-content-md-center">
               <ProgTab1 />
             </Row>
-            <Row>
+            <Row className=" justify-content-md-center">
               <ProgTab2 />
             </Row>
-            <Row>
+            <Row className=" justify-content-md-center">
               <ProgTab3 />
             </Row>
-            <Row>
+            <Row className=" justify-content-md-center">
               <ProgTab4 />
             </Row>
           </Col>
 
           <Col md={6}>
-            <Row>
+            <Row className=" justify-content-center">
+              <div className="sub-head">
+                <Head head={"UPDATES"} />
+              </div>
+            </Row>
+            <Row className=" justify-content-center">
               <Card1 />
             </Row>
-            <Row>
+            <Row className=" justify-content-center">
               <Card2 />
             </Row>
-            <Row>
+            <Row className=" justify-content-center">
               <Card3 />
             </Row>
           </Col>
@@ -80,14 +77,14 @@ function App() {
         <Row>
           <Col>
             <Row className=" justify-content-center">
-              <div className="pro2-head">
+              <div className="sub-head">
                 <Head head={"NEWS"} />
               </div>
             </Row>
             <News />
           </Col>
         </Row>
-        <Row fluid>
+        <Row>
           <Footer />
         </Row>
       </Container>
