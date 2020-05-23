@@ -43,16 +43,16 @@ function App() {
                 <Head head={"PROGRAM"} />
               </div>
             </Row>
-            <Row className=" justify-content-md-center">
+            <Row className=" justify-content-center">
               <ProgTab1 />
             </Row>
-            <Row className=" justify-content-md-center">
+            <Row className=" justify-content-center">
               <ProgTab2 />
             </Row>
-            <Row className=" justify-content-md-center">
+            <Row className=" justify-content-center">
               <ProgTab3 />
             </Row>
-            <Row className=" justify-content-md-center">
+            <Row className=" justify-content-center">
               <ProgTab4 />
             </Row>
           </Col>

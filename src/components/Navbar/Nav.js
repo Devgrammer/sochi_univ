@@ -23,8 +23,8 @@ function NavBar() {
             />
             <Media.Body className="nmed-bdy">
               <div className="logo-cont">
-                <p id="fac">SOCIO-PEDAGOGICAL FACULTY</p>
-                <p id="uni">SOCHI STATE UNIVERSITY</p>
+                <p id="facnav">SOCIO-PEDAGOGICAL FACULTY</p>
+                <p id="uninav">SOCHI STATE UNIVERSITY</p>
               </div>
             </Media.Body>
           </Media>
